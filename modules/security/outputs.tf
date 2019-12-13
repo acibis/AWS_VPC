@@ -1,5 +1,5 @@
 output "bastion_sg" {
-  value       = aws_security_group.bastion.id
+  value       = aws_security_group.public.id
   description = "The id of the bastion sg"
 }
 
