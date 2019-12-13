@@ -52,6 +52,5 @@ module "security" {
   source            = "./modules/security"
 
   vpc_id            = module.network-infra.vpc_id
-  alb_ip            = [format("%s/32",module.compute.instance_ip)]
   bastion_ip        = [format("%s/32",module.bastion.instance_ip)]
 }
