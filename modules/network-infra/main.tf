@@ -74,7 +74,7 @@ resource "aws_subnet" "private" {
 }
 
 # Load Balancer
-#zostalby stworzony, gdyby nie:
+# would be created if not the contraint:
 # At least two subnets in two different Availability Zones must be specified to create LB
 # resource "aws_lb" "lb" {
 #   internal           = true
