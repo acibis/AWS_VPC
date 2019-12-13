@@ -18,7 +18,7 @@ variable "instance_type" {
 }
 
 variable "subnet_id" {
-  description = "The type of instance to start."
+  description = "The subnet_id of instance to start."
   default     = ""
   type        = string
 }
